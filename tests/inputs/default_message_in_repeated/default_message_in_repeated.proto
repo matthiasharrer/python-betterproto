@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package default_message_in_repeated;
+
+message MessageA {
+  bool flag = 1;
+}
+
+message Test {
+  repeated MessageA msg = 2;
+}
